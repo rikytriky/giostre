@@ -1,0 +1,382 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.lineH {
+    background: #000000;
+    border: 0px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 4px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.lineV {
+    background: #000000;
+    border: 0px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    padding: 0;
+    text-align: center;
+    width: 4px;
+}
+
+.lineB {
+    background: #fff;
+    border: 0px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 4px;
+    padding: 0;
+    text-align: center;
+    width: 38px;
+}
+
+.lineH:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.lineV:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.dot {
+    background: #999;
+    border: 0px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 4px;
+    padding: 0;
+    text-align: center;
+    width: 4px;
+}
+
+.square_0000 {
+    background: #fff;
+    border: 0px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    padding: 0;
+    text-align: center;
+    width: 38px;
+}
+
+.square_2222 {
+	background: #fff;
+	border: 0px solid #999;  
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_4222 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_2422 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_2242 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 4px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_2224 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_4422 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_4224 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_2442 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 4px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square_2244 {
+	background: #fff;
+	border-top-color: rgb(153, 153, 153);
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-right-color: rgb(153, 153, 153);
+	border-right-style: solid;
+	border-right-width: 4px;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-left-color: rgb(153, 153, 153);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	/*margin-right: -1px;
+	margin-top: -1px;*/
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.zoom {
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 2px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
