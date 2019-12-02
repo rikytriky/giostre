@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "770ca4cfb0cb5dcb1a844f695d8ae351",
+    "revision": "c59d6c003f0ceedad81acf264e53544c",
     "url": "/giostre/index.html"
   },
   {
-    "revision": "050b3d349c3dfef38690",
+    "revision": "1757d21210542f571859",
     "url": "/giostre/static/css/main.af62fe61.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/giostre/static/js/2.4a1c42e0.chunk.js"
   },
   {
-    "revision": "050b3d349c3dfef38690",
-    "url": "/giostre/static/js/main.8cbf5858.chunk.js"
+    "revision": "1757d21210542f571859",
+    "url": "/giostre/static/js/main.f7f55ed2.chunk.js"
   },
   {
     "revision": "c1f8b3f8b7d2a6aa183a",

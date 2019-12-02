@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/giostre/static/css/main.af62fe61.chunk.css",
-    "main.js": "/giostre/static/js/main.8cbf5858.chunk.js",
-    "main.js.map": "/giostre/static/js/main.8cbf5858.chunk.js.map",
+    "main.js": "/giostre/static/js/main.f7f55ed2.chunk.js",
+    "main.js.map": "/giostre/static/js/main.f7f55ed2.chunk.js.map",
     "runtime-main.js": "/giostre/static/js/runtime-main.be5a0e19.js",
     "runtime-main.js.map": "/giostre/static/js/runtime-main.be5a0e19.js.map",
     "static/js/2.4a1c42e0.chunk.js": "/giostre/static/js/2.4a1c42e0.chunk.js",
     "static/js/2.4a1c42e0.chunk.js.map": "/giostre/static/js/2.4a1c42e0.chunk.js.map",
     "index.html": "/giostre/index.html",
-    "precache-manifest.13d0ccc40fcfada8a5e794c4f9e4487a.js": "/giostre/precache-manifest.13d0ccc40fcfada8a5e794c4f9e4487a.js",
+    "precache-manifest.51ae3a5d599aeb920e1a7f988eeb20ef.js": "/giostre/precache-manifest.51ae3a5d599aeb920e1a7f988eeb20ef.js",
     "service-worker.js": "/giostre/service-worker.js",
     "static/css/main.af62fe61.chunk.css.map": "/giostre/static/css/main.af62fe61.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.be5a0e19.js",
     "static/js/2.4a1c42e0.chunk.js",
     "static/css/main.af62fe61.chunk.css",
-    "static/js/main.8cbf5858.chunk.js"
+    "static/js/main.f7f55ed2.chunk.js"
   ]
 }
